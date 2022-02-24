@@ -1,0 +1,179 @@
+.cardimgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+/* TODO design the hover of a card project */
+.cardimg:hover {
+  border: solid 4px #01172F;
+}
+
+.cardimg {
+  max-width: 400px;
+  overflow: hidden;
+  background: white;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0 4px 64px 0 rgba(19, 23, 61, 0.08);
+  height: 100%;
+  border-radius: 4px;
+  position:relative;
+  transition: all ease 0.1s;
+  border-bottom: 2px solid #D6D6D6;
+  border-bottom-left-radius: 2px solid #D6D6D6;
+  border-bottom-right-radius: 2px solid #D6D6D6;
+}
+
+.cardimg > img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cardimg > img.left {
+  object-position: left top;
+}
+
+.cardimg .cardimg-infos h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  /* color: $dark-blue; */
+}
+
+.cardimg .cardimg-infos h3 {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 16px;
+  /* color: $dark-blue; */
+}
+
+.cardimg p {
+  font-size: 16px;
+  opacity: .7;
+  margin: 0;
+  padding: 0;
+  /* color: $dark-blue; */
+}
+
+.cardimg .cardimg-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.cardimg-infos ul li p {
+ text-align: left;
+}
+
+.cardimg-date {
+  position: absolute;
+  color: white;
+  text-align: right;
+  padding: 8px;
+  right: 0px;
+  top: 0px;
+  border-radius: 0 0 0 4px;
+}
+
+.cardimg-date h2 {
+  margin:0;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+/* fin test */
+.card-project {
+  margin-bottom: 32px;
+}
+
+.card-project h2 {
+  font-size: 32px;
+  margin: 0;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.description {
+  font-size: 18px;
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+
+.card-project p {
+  opacity: 1;
+}
+
+.project-cover {
+  width: 100%;
+}
+
+.title-project-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.title-project {
+  margin-bottom: 24px;
+}
+
+.project-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content > hr {
+  margin-top: 24px;
+}
+
+.demo-app-grid{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.demo-app img {
+  width: 100%;
+}
+
+.date {
+  color: white;
+  font-weight: 500;
+  text-align: right;
+}
+
+
+/* Iphone and Small devices */
+@media (max-width: 768px) {
+  .cardimgs {
+    grid-template-columns: 1fr;
+  }
+  .project-link {
+    flex-direction: column;
+  }
+  .project-link a {
+    margin: 0;
+    padding: 0;
+  }
+  .demo-app-grid {
+    grid-template-columns: 1fr;
+  }
+  .cardimg-infos .technos-home .techno p {
+    font-size: 12px;
+  }
+  .cardimg .cardimg-infos h3 {
+    text-align: left;
+  }
+}
+
+
+/* Smallest device - Bigger Phone */
+@media (min-width: 769px) and (max-width: 1599px) {
+  .sponsor-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}

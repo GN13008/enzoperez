@@ -1,0 +1,23 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.contact-detail{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Smallest device */
+@media (max-width: 768px) {
+  .contact-link {
+    flex-direction: column;
+  }
+}

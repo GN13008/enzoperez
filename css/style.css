@@ -1,0 +1,150 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* My components */
+@import url(components/anchor.css);
+@import url(components/banner.css);
+@import url(components/button.css);
+@import url(components/card-image.css);
+@import url(components/card-profil.css);
+@import url(components/card-sponsor.css);
+@import url(components/contact.css);
+@import url(components/footer.css);
+@import url(components/navbar.css);
+@import url(components/pills.css);
+@import url(components/project.css);
+@import url(components/section.css);
+
+/* Font & Size */
+p, a, i{
+  /* font à tester */
+  /* font-family: "Inter", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+  "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
+  font-family: "Montserrat", "Work Sans", "Helvetica", "sans-serif";
+  font-size: 16px;
+  text-align: justify;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat","Poppins", "Helvetica", "sans-serif";
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 28px;
+}
+h3, h4 {
+  font-size: 20px;
+}
+
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+body {
+  padding:0;
+  margin:0;
+}
+
+/* background Color */
+
+.bck-red {
+  background-color: #E65C4F;
+}
+
+.bck-white {
+  background-color: #E9EEF2;
+}
+
+.bck-dark-grey {
+  background-color: #485665;
+}
+
+.bck-blue {
+  background-color: #01172F;
+}
+
+.bck-deep-blue {
+  background-color: #01172F;
+}
+
+/* Smallest device */
+@media (min-width: 100px) and (max-width: 355px) {
+  .content {
+    width: 300px;
+  }
+  p, a, i{
+    text-align: left;
+  }
+}
+
+/* Smallest device - Bigger Phone */
+@media (min-width: 360px) and (max-width: 575px) {
+  .content {
+    width: 350px;
+  }
+  p, a, i{
+    text-align: left;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .content {
+    width: 550px;
+  }
+  p, a, i{
+    text-align: left;
+  }
+}
+
+@media (min-width: 675px) {
+  .content {
+    width: 650px;
+  }
+    p, a, i{
+    text-align: left;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .content {
+    width: 750px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .content {
+    width: 950px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .content {
+    width: 1100px;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .content {
+    width: 1200px;
+  }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1600px) {
+  .content {
+    width: 1500px;
+  }
+}

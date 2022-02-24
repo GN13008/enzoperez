@@ -1,0 +1,28 @@
+/* section */
+
+.section {
+  padding-top: 32px;
+}
+
+.section-content {
+  margin-bottom: 32px;
+}
+
+.section-content h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 16px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  font-weight: bold;
+}
+
+.section-content p, i, a {
+  color: black;
+  opacity: .9;
+  text-decoration: none;
+}
+.section-content i, a:hover {
+  color: black;
+  opacity: 0,4;
+}
