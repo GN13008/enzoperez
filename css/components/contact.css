@@ -15,8 +15,19 @@
   align-items: center;
 }
 
+.contact-link a {
+  margin: 0;
+}
+.contact-link p {
+  margin: 0;
+}
+
 /* Smallest device */
 @media (max-width: 768px) {
+  .contact {
+    grid-template-columns: 1fr;
+
+  }
   .contact-link {
     flex-direction: column;
   }
