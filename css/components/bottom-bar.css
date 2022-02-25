@@ -1,0 +1,39 @@
+/* bottom-bar */
+.bottom-bar {
+  background: #F4F4F4;
+  border-top: 1px solid #eee;
+}
+
+.bottom-bar-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  color: rgba(0,0,0,0.3);
+  padding: 8px 0;
+}
+
+.bottom-bar-copyright {
+  text-align: center;
+}
+.bottom-bar-copyright p {
+  margin:0;
+  padding: 0;
+  font-size: 13px;
+}
+
+.bottom-bar-links {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-bar-links i {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.bottom-bar-links i:hover {
+  opacity: 1;
+}
