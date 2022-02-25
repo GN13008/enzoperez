@@ -11,7 +11,7 @@
 .sponsor-card {
   width: 200px;
   height: 200px;
-  margin: 0 18px;
+  margin: 18px;
   display: flex;
   align-items: center;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
@@ -24,10 +24,6 @@
   object-fit: cover;
 }
 
-.sponsor-card > img.left {
-  object-position: left top;
-}
-
 .black {
   background-color: black;
 }
@@ -35,5 +31,13 @@
 
 /* Iphone and Small devices */
 @media (max-width: 768px) {
-
+  .sponsor-cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sponsor-card {
+    width: 150px;
+    height: 150px;
+  }
 }
