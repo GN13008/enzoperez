@@ -2,7 +2,7 @@
 .navbar {
   position: fixed !important;
   top: 0px;
-  width: 100%;
+  width: 100vw;
   z-index: 10000;
   transition: all .5s;
 }

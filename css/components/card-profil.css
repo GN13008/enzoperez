@@ -62,10 +62,14 @@
   }
 
   .smaller img {
-    width: 200px;
+    width: 300px;
   }
 
   .flex-content {
     margin-bottom: 0;
+  }
+
+  .imgtrajet img {
+    width: 300px;
   }
 }

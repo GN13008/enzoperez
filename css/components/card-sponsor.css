@@ -19,9 +19,17 @@
   border-radius: 4px;
 }
 
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .sponsor-card > img {
   width: 100%;
   object-fit: cover;
+  border-radius: 4px;
 }
 
 .black {
